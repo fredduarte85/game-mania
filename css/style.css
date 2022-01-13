@@ -6,21 +6,26 @@
     box-sizing: border-box;
 }
 header {
-    height: 57px;
+    height: 67px;
     background-color:black;
 }
 
 .container-grid {
-    width: 1200px;
+    width: 1700px;
     margin: 0 auto;
+    vertical-align: center;
 }
 
 .logo {
     width: 5px;
 }
 
-.cabecalho {
+.links {
     display: flex;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: space-between;
     align-items: center;
     
@@ -28,19 +33,33 @@ header {
 
 .login {
     display: flex;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: space-between;
-    align-items:center;
+    vertical-align: top;
+    align-items:right;
+    
     
 }
 
-.menu a {
+.face {
+    display:flex;
+    justify-content: space-between;
+    vertical-align: sub;
+    align-items:right;
+
+}
+
+.links {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.menu a:hover {
+.links a:hover {
     text-decoration: underline;
     text-shadow:yellowgreen;
 }
