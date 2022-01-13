@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 80px;
+    background-color:black;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 5px;
+}
+
+.cabecalho {
+    display: flex;
+}
