@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header {
-    height: 80px;
+    height: 57px;
     background-color:black;
 }
 
@@ -19,4 +21,34 @@ header {
 
 .cabecalho {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    text-shadow:yellowgreen;
+}
+
+.banner {
+    height: 225px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
 }
