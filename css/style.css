@@ -7,6 +7,7 @@
     text-decoration: none;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -27,8 +28,8 @@ header {
 }
 
 .menu a {
-    text-transform: uppercase;
-    color: white;
+text-transform: uppercase;
+color: white;
 }
 
 .menu a:hover {
@@ -38,7 +39,6 @@ header {
 
 .menu div.menuPrincipal {
     margin: 0 10px;
-    
 }
 
 .banner {
