@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
-header {
-    height: 57px;
-    background-color:black;
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-grid {
@@ -15,34 +16,29 @@ header {
     margin: 0 auto;
 }
 
-.logo {
-    width: 5px;
+header {
+    background-color:black;
 }
 
-.cabecalho {
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-
-.login {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .menu a:hover {
     text-decoration: underline;
-    text-shadow:yellowgreen;
+    text-shadow: 2px 4px 5px yellowgreen;
+}
+
+.menu div.menuPrincipal {
+    margin: 0 10px;
+    
 }
 
 .banner {
